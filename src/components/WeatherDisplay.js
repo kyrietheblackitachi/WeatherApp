@@ -1,13 +1,12 @@
 import React from 'react'
-import {Box,Stack,Button,Tab,Tabs} from '@mui/material'
+import {Box,Tab,Tabs} from '@mui/material'
 import CurrentObservation from './CurrentObservation'
 import Forecast from './Forecast'
 import { useState } from 'react'
-import bubbles from '../images/bubbles.jpg'
+
 function WeatherDisplay({data}) {
   const[highlight,setHighlight] = useState(false)
   const[forecast,setForecast] = useState(true)
-  const [value,setValue] = useState('1')
 
   const showHighlight=()=>{
     setForecast(false)

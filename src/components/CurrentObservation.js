@@ -1,6 +1,5 @@
 import React from 'react'
-import {Container,Stack,Box,Grid,Card,Typography,} from '@mui/material'
-import {ScrollMenu} from 'react-horizontal-scrolling-menu'
+import {Container,Grid,Card,} from '@mui/material'
 import humidity from '../images/weather_observation/humidity.jpg'
 import pressure from '../images/weather_observation/pressure.jpg'
 import temperature from '../images/weather_observation/temperature.webp'

@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import {useState,useEffect} from 'react'
-import {Box,TextField,Card,Typography,Button,Stack} from '@mui/material'
+import {Box,Card} from '@mui/material'
 import SearchBox from './SearchBox'
 import WeatherDisplay from './WeatherDisplay'
 import {options,fetchWeather,options2, fetchLocation} from './fetchData'
@@ -15,6 +16,7 @@ function Home(){
   useEffect(()=>{
     const data=async()=>{
       const newData =  await fetchWeatherData()
+      return newData
     }
     data()
   },[city])

@@ -1,7 +1,5 @@
 import React from 'react'
-import {Box,Stack,Typography,TextField,Button} from '@mui/material'
-import {options,fetchData} from './fetchData'
-import { useState } from 'react'
+import {Box,Stack,TextField} from '@mui/material'
 import search_icon from '../images/weather_observation/search.png'
 
 
