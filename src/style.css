@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  list-style: style;
+}
+.home{
+
+}
+.weather-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.observation{
+  background: rgba(0, 60, 189, 0.4);
+  padding:1.5em;
+
+}
+.forecast{
+
+}
+.grid-box{
+  display: flex;
+  align-items: center;
+  margin-top:2em;
+}
+.obs-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding:1em;
+}
+.humidity{
+  width:70%;
+  justify-content: flex-end;
+}
+.pressure{
+  width:70%;
+}
+.temperature{
+  width:80%;
+}
+.wind-direction{
+  width:70%;
+}
+.wind-speed{
+  width:70%;
+}
+.cloudiness{
+  width:70%;
+}
+.search{
+  width:55px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2em auto;
+  background:rgb(125, 125, 224);
+  padding:1em;
+}
+.grid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather-text{
+  text-align: center;
+}
+.forecast{
+  margin-bottom:2em;
+}
+
